@@ -1,16 +1,7 @@
 {
-	"name": "adonuxt"
-	, "version": "1.0.0"
-	, "author": ""
-	, "description": ""
-	, "license": "MIT"
-	, "private": true
-	, "main": "server.js"
-	, "scripts": {
-		"serve:dev": "npm run dev"
+	"scripts": {
+		"start": "node ./ace nuxtbuild && cross-env NODE_ENV=production node server.js"
 		, "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js"
-		, "build": "node ./ace nuxtbuild"
-		, "start": "cross-env NODE_ENV=production node server.js"
 	}
 	, "dependencies": {
 		"adonis-ace": "3.x"
@@ -21,14 +12,16 @@
 		, "adonis-lucid": "3.x"
 		, "adonis-middleware": "1.x"
 		, "adonis-websocket": "1.x"
-		, "cross-env": "5.x"
+
 		, "nuxt": "latest"
+
 		, "youch": "2.x"
 	}
 	, "autoload": {
 		"App": "./app"
 	}
 	, "devDependencies": {
-		"nodemon": "1.x"
+		"cross-env": "5.x"
+		, "nodemon": "1.x"
 	}
 }
