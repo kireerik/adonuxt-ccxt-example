@@ -13,22 +13,22 @@
 		, "start": "cross-env NODE_ENV=production node server.js"
 	}
 	, "dependencies": {
-		"adonis-ace": "^3.0.6"
-		, "adonis-auth": "^1.0.5"
-		, "adonis-commands": "^2.1.5"
-		, "adonis-fold": "^3.0.3"
-		, "adonis-framework": "^3.0.9"
-		, "adonis-lucid": "^3.0.13"
-		, "adonis-middleware": "^1.0.10"
-		, "adonis-websocket": "^1.0.2"
-		, "cross-env": "^3.1.4"
+		"adonis-ace": "3.x"
+		, "adonis-auth": "1.x"
+		, "adonis-commands": "2.x"
+		, "adonis-fold": "3.x"
+		, "adonis-framework": "3.x"
+		, "adonis-lucid": "3.x"
+		, "adonis-middleware": "1.x"
+		, "adonis-websocket": "1.x"
+		, "cross-env": "5.x"
 		, "nuxt": "latest"
-		, "youch": "^2.0.4"
+		, "youch": "2.x"
 	}
 	, "autoload": {
 		"App": "./app"
 	}
 	, "devDependencies": {
-		"nodemon": "^1.11.0"
+		"nodemon": "1.x"
 	}
 }

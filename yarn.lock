@@ -46,7 +46,7 @@ acorn@^5.0.0, acorn@^5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.1.2.tgz#911cb53e036807cf0fa778dc5d370fbd864246d7"
 
-adonis-ace@^3.0.6:
+adonis-ace@3.x:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/adonis-ace/-/adonis-ace-3.0.8.tgz#812aa96f9a2049b4b6c0af413d7588d2d55537e7"
   dependencies:
@@ -60,7 +60,7 @@ adonis-ace@^3.0.6:
     lodash "^4.17.2"
     node-exceptions "^2.0.0"
 
-adonis-auth@^1.0.5:
+adonis-auth@1.x:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/adonis-auth/-/adonis-auth-1.0.7.tgz#41eb7c74f6fd9240a1ea5d9593f385130add1a21"
   dependencies:
@@ -79,7 +79,7 @@ adonis-binding-resolver@^1.0.1:
   dependencies:
     node-exceptions "^1.0.3"
 
-adonis-commands@^2.1.5:
+adonis-commands@2.x:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/adonis-commands/-/adonis-commands-2.1.5.tgz#48e2af9aba37c329df64d2e2e616f9d1e78c36a7"
   dependencies:
@@ -90,7 +90,7 @@ adonis-commands@^2.1.5:
     inflect "^0.3.0"
     randomstring "^1.1.5"
 
-adonis-fold@^3.0.3:
+adonis-fold@3.x:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/adonis-fold/-/adonis-fold-3.0.3.tgz#b1c64d151795092fcb49d71d4fe20933b9769742"
   dependencies:
@@ -104,7 +104,7 @@ adonis-fold@^3.0.3:
     node-exceptions "^1.0.3"
     require-stack "^1.0.1"
 
-adonis-framework@^3.0.9:
+adonis-framework@3.x:
   version "3.0.14"
   resolved "https://registry.yarnpkg.com/adonis-framework/-/adonis-framework-3.0.14.tgz#fdc6a2a95c29ee2d475ca49634e3e9ccd8c606b7"
   dependencies:
@@ -128,7 +128,7 @@ adonis-framework@^3.0.9:
     type-of-is "^3.4.0"
     uuid "^3.0.1"
 
-adonis-lucid@^3.0.13:
+adonis-lucid@3.x:
   version "3.0.16"
   resolved "https://registry.yarnpkg.com/adonis-lucid/-/adonis-lucid-3.0.16.tgz#321cdc035806acf11c830447759c88212999d647"
   dependencies:
@@ -148,7 +148,7 @@ adonis-lucid@^3.0.13:
     pretty-hrtime "^1.0.3"
     require-all "^2.2.0"
 
-adonis-middleware@^1.0.10:
+adonis-middleware@1.x:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/adonis-middleware/-/adonis-middleware-1.0.14.tgz#a03b43d0f071c3dcfbb16667519717cece700457"
   dependencies:
@@ -163,7 +163,7 @@ adonis-middleware@^1.0.10:
     node-guard "^1.0.0"
     uuid "^3.0.1"
 
-adonis-websocket@^1.0.2:
+adonis-websocket@1.x:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/adonis-websocket/-/adonis-websocket-1.0.4.tgz#208c47f60e340b1bb172bbb332f5503592b1e451"
   dependencies:
@@ -1634,9 +1634,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^3.1.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-3.2.4.tgz#9e0585f277864ed421ce756f81a980ff0d698aba"
+cross-env@5.x:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.0.5.tgz#4383d364d9660873dd185b398af3bfef5efffef3"
   dependencies:
     cross-spawn "^5.1.0"
     is-windows "^1.0.0"
@@ -3961,7 +3961,7 @@ node-res@3.0.1:
     send "^0.14.1"
     vary "^1.1.0"
 
-nodemon@^1.11.0:
+nodemon@1.x:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.12.0.tgz#e538548a777340a19f855c4f087b7e528aa3feda"
   dependencies:
@@ -6550,7 +6550,7 @@ yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
-youch@^2.0.4:
+youch@2.x:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/youch/-/youch-2.0.5.tgz#7a1d4491e96c0f9f18a02b3b57c360d42714428a"
   dependencies:
