@@ -1,4 +1,3 @@
-# Node modules
 node_modules
 
 # Ignoring everything inside storage directory
@@ -6,9 +5,6 @@ storage/*
 
 # Keeping storage directory
 !storage/.gitkeep
-
-# Environment files should be seperate for each environment
-.env
 
 # When npm runs error it write logs to the below file
 npm-debug.log
