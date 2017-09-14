@@ -6,9 +6,6 @@ storage/*
 # Keeping storage directory
 !storage/.gitkeep
 
-# When npm runs error it write logs to the below file
-npm-debug.log
-
 # Coverage directory used by tools like istanbul
 coverage
 
